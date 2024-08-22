@@ -1,0 +1,588 @@
+/* Section Header */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    font-family: "Montserrat", sans-serif;
+    background-color: #121662;
+}
+  
+.Header{
+    background-color: #121662;
+    /* border: 2px solid red; */
+    padding-bottom: 2rem;
+    /* height: 10vh; */
+}
+.HeadImg img{
+     max-width: 8%;
+     margin-top:1rem ;
+     margin-left: 15rem;
+     /* position: relative; */
+}
+.HeadImg img:hover{
+    cursor: pointer;
+}
+.Nav{
+    color: #fff;
+    /* position: absolute; */
+
+}
+.NavList{
+    /* border: 1px solid red; */
+    width: 40%;
+    display: flex;
+    gap: 2rem;
+    margin-top: -2rem;
+    margin-left: 35rem;
+    position: relative;
+}
+.NavList li{
+    font-size: 1rem;
+    font-weight: 550;
+    list-style: none;
+}
+.NavList li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
+.LoginBtn{
+    display: inline;
+    /* border: 1px solid red; */
+    
+}
+.LoginBtn button{
+
+    display: inline;
+    padding: 10px 10px;
+    border-radius: 50px;
+    border-color: #121662;
+    background-color: #fff;
+    color: #000;
+    font-size: .88rem;
+    font-weight: 600;
+    position: absolute;
+    margin-left: 85rem;
+    margin-top: -2rem;
+}
+
+.LoginBtn button:hover{
+    cursor: pointer;
+    color: #4e55e0;
+}
+
+/* SectionHero */
+.Heros{
+    background-color: #121662;
+    /* border: 2px solid black; */
+    /* height: 10vh; */
+}
+.HeroLeft{
+    display: inline-flex;
+    margin-top: 8rem;
+    margin-left: 8rem;
+    margin-bottom: 2rem;
+    width: 31%;
+    height: 80vh;
+    /* border: 1px solid white; */
+    padding: 1rem;
+    position: relative;
+}
+.HeroLeft h1{
+    font-size: 4rem;
+    color: #fff;
+    font-weight: bolder;
+    line-height: 4rem;
+    display: inline-flex;
+    position: relative;
+}
+.HeroLeft p{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 14rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 400;   
+}
+.HeroRight{
+    display: inline-flex;
+    position: absolute;
+    margin-top: 1rem;
+}
+.HeroBtns{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 0 ;
+}
+.HeroBtns #HeroBtn1{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight:  500;
+    border-color: #121662;
+}
+#HeroBtn1:hover{
+    cursor: pointer;
+    color: #4e55e0;
+}
+.HeroBtns #HeroBtn2{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    background-color: #161CBB;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight:  500;
+    border-color: #121662;
+}
+#HeroBtn2:hover{
+    cursor: pointer;
+       
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}
+/* Section1 */
+.Section1{
+    background-color: #121662;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.SecBorder1{
+    width: 80%;
+    height: 90vh;
+    padding: 2rem;
+    border: 3px solid hsla(0, 100%, 100%, 0.2);
+    background-color: #161CBB;
+    margin-top: 20rem;
+    border-radius: 50px;
+    position: relative;
+}
+.SecVed1{
+    display: inline;
+    position: relative;
+}
+.SecText1{
+    display: inline;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+.SecText1 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.SecText1 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+.SecGif{
+    position:absolute;
+    margin-top: -45.3rem;
+    margin-left: 55rem;
+    z-index: 1;
+}
+.SecGif img{
+    max-width: 50%;
+}
+/* Section2 */
+.Section2{
+    background-color: #121662;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.SecBorder2{
+    width: 80%;
+    height: 90vh;
+    padding: 2rem;
+    border: 3px solid hsla(0, 100%, 100%, 0.2);
+    background-color: #161CBB;
+    margin-top: 20rem;
+    border-radius: 50px;
+    position: relative;
+}
+.SecVed2{
+    display: inline;
+    position: relative;
+    margin-left: 27rem;
+    /* margin-top: -35rem; */
+}
+.SecText2{
+    display: inline;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+.SecText2 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.SecText2 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+
+/* Section3 */
+.Section3{
+    background-color: #121662;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.SecBorder3{
+    width: 80%;
+    height: 90vh;
+    padding: 2rem;
+    border: 3px solid hsla(0, 100%, 100%, 0.2);
+    background-color: #161CBB;
+    margin-top: 20rem;
+    border-radius: 50px;
+    position: relative;
+}
+.SecVed3{
+    display: inline;
+    position: relative;
+}
+.SecText3{
+    display: inline;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+.SecText3 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.SecText3 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+/* Scrollingtext */
+.scrolling-text {
+    background-color: #6767E1;
+    margin-top: 10rem;
+    overflow: hidden;
+    white-space: nowrap;
+    color: #000;
+    padding: 3rem;
+}
+.scrolling-text img{
+    color: #6767E1;
+}
+
+.scrolling-text span {
+    display: inline-block;
+    font-size: 3rem;
+    color: #fff;
+    font-weight: 1000;
+    animation: scroll-text 10s linear infinite;
+}
+
+.scrolling-text img {
+    height: 30px;
+    vertical-align: middle;
+    margin: 0 10px;
+}
+
+@keyframes scroll-text {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Section4 */
+.Section4{
+    background-color: #121662;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.SecBorder4{
+    width: 80%;
+    height: 90vh;
+    padding: 2rem;
+    border: 3px solid hsla(0, 100%, 100%, 0.2);
+    background-color: #161CBB;
+    margin-top: 20rem;
+    border-radius: 50px;
+    position: relative;
+}
+.SecVed4{
+    display: inline;
+    position: relative;
+    margin-left: 27rem;
+    /* margin-top: -35rem; */
+}
+.SecText4{
+    display: inline;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+.SecText4 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.SecText4 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+/* Section5 */
+.Section5{
+    background-color: #121662;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.SecBorder5{
+    width: 80%;
+    height: 90vh;
+    padding: 2rem;
+    border: 3px solid hsla(0, 100%, 100%, 0.2);
+    background-color: #161CBB;
+    margin-top: 20rem;
+    border-radius: 50px;
+    position: relative;
+}
+.SecVed5{
+    display: inline;
+    position: relative;
+}
+.SecText5{
+    display: inline;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+.SecText5 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.SecText5 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+/* Section6 */
+.Section6{
+    background-color: #121662;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+}
+.SecBorder6{
+    width: 80%;
+    height: 90vh;
+    padding: 2rem;
+    border: 3px solid hsla(0, 100%, 100%, 0.2);
+    background-color: #161CBB;
+    margin-top: 20rem;
+    border-radius: 50px;
+    position: relative;
+}
+.SecVed6{
+    display: inline;
+    position: relative;
+    margin-left: 27rem;
+    /* margin-top: -35rem; */
+}
+.SecText6{
+    display: inline;
+    /* border: 1px solid yellow; */
+    position: absolute;
+    margin-top: 4rem;
+    margin-left: 1rem;
+    color: #fff;
+}
+.SecText6 h1{
+    font-size: 4rem;
+    font-weight: 900;
+    line-height: 4rem;
+    margin-bottom: 1rem;
+}
+.SecText6 p{
+    font-size: 1.3rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+} 
+.LastText{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.LastText h1{
+    margin-top: 10rem;
+    margin-bottom: 5rem;
+    font-size: 4rem;
+    font-weight: 1000;
+    text-transform: uppercase;
+    line-height: 3rem;
+    color: #fff;
+}
+ 
+.HeroBtns2{
+    /* border: 1px solid white; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+    margin-top: 1rem;
+    padding: 1rem 0 ;
+}
+.HeroBtns2 #HeroBtn2{
+    padding: 1rem 3rem;
+    border-radius: 50px;
+    color: #000;
+    font-size: 1.3rem;
+    font-weight:  500;
+    border-color: #121662;
+    margin-bottom: 5rem;
+}
+#HeroBtn2:hover{
+    cursor: pointer;
+    color: #4e55e0;
+}
+.LastImg img{
+    /* max-width: 100%; */
+    /* height: 40vh; */
+    width: 100%;
+}
+/* FooterSection */
+ 
+
+footer {
+    background-color: #5865f2;
+    padding: 50px 0;
+}
+
+.footer-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.language-select {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.language-select img {
+    width: 20px;
+    height: 20px;
+    margin-right: 8px;
+}
+
+.social-media {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 40px;
+}
+
+.social-media a img {
+    width: 25px;
+    height: 25px;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 40px;
+}
+
+.link-column {
+    flex: 1;
+    margin: 0 15px;
+}
+
+.link-column h4 {
+    margin-bottom: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.link-column ul {
+    list-style: none;
+    padding: 0;
+}
+
+.link-column ul li {
+    margin-bottom: 10px;
+}
+
+.link-column ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.footer-bottom {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.discord-logo img {
+    width: 100px;
+}
+
+.sign-up-btn {
+    background-color: #7289da;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+
+.sign-up-btn:hover {
+    background-color: #99aab5;
+}
+
+
+
+ 
+
+   
